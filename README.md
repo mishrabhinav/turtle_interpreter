@@ -13,8 +13,24 @@ with Imperial College's rules and may be regarded as plagiarism. All
 source code used in the project are for curriculum use only.
 Covered under the MIT License.
 
-Repeat Command
+Commands and Features
+=====================
+
+Basic Commands
 --------------
+
+* **paper** *height* *width* - Create a new paper for the turtles to draw on.
+* **new** *type* *name* *x* *y* - Create a new turtle with the specified type, name and co-ordinates.
+* **pen** *name* *state* - Change the pen state of the specified turtle.
+* **move** *name* *distance* - Move the turtle in the forward direction.
+* **right/left** *name* *angle* - Turn the turtle to right/left by the angle specified.
+* **show** - Show the current state of the paper.
+
+Advanced Commands
+-----------------
+
+* Repeat Command
+
 Use this command to repeat a set of commands for a specified number of times.
 Ex:
 ```
@@ -23,17 +39,10 @@ Ex:
   right frank 90
   end
 ```
+This will repeat the set of command four times. 
 
-This will repeat the set of command
-```
-  move frank 4
-  right frank 90
-```
-  four times.
+* Globbing
 
-
-Globbing
---------
 This feature enables pattern matching in turtle names.
 Ex:
 ```
@@ -42,8 +51,8 @@ Ex:
 
 This will move all turtles starting with 'a' 10 times.
 
-Multiple Turtle Calls
----------------------
+* Multiple Turtle Calls
+
 This feature enables parsing one command for as many turtle as you want.
 Ex:
 ```
@@ -54,8 +63,8 @@ This will move both frank and freya 4 steps ahead.
 
 **Note**: The extensions like Globbing and Multiple Turtle Calls can be used together for better usage of the interpreter.
 
-Save Your Art
--------------
+* Save Your Art
+
 This features enables saving your masterpiece to the specified file.
 Ex:
 ```
@@ -76,6 +85,3 @@ Error: Turtle type 'cute' not defined.
 Error: Turtle 'nicolai' not found.
 >
 ```
-
-
-
