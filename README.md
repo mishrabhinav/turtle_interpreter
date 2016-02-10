@@ -1,10 +1,10 @@
 Turtle Interpreter (written in JAVA)
 ===================================
 
-This is a first year lab exercise at Imperial College London. It is basically
-a simple implementation of [Logo(programming language)](https://en.wikipedia.org/wiki/Logo_%28programming_language%29)
+This is a first year lab exercise at Imperial College London. It is
+a very basic implementation of [Logo(programming language)](https://en.wikipedia.org/wiki/Logo_%28programming_language%29)
 in JAVA. Since I enjoyed working on this lab assignment, I decided to put
-it on github. 
+it on github.
 
 
 Copyright by **Abhinav Mishra**. This code is for
@@ -52,7 +52,15 @@ Ex:
 
 This will move both frank and freya 4 steps ahead.
 
-Note: The extensions like Globbing and Multiple Turtle Calls can be used together for better usage of the interpreter.
+**Note**: The extensions like Globbing and Multiple Turtle Calls can be used together for better usage of the interpreter.
+
+Save Your Art
+-------------
+This features enables saving your masterpiece to the specified file.
+Ex:
+```
+> save /PATH/TO/FILE.TXT
+```
 
 Command Line Support
 --------------------
