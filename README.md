@@ -29,7 +29,7 @@ Basic Commands
 Advanced Commands
 -----------------
 
-* Repeat Command
+* **Repeat Command**
 
 Use this command to repeat a set of commands for a specified number of times.
 Ex:
@@ -41,7 +41,7 @@ Ex:
 ```
 This will repeat the set of command four times. 
 
-* Globbing
+* **Globbing**
 
 This feature enables pattern matching in turtle names.
 Ex:
@@ -51,7 +51,7 @@ Ex:
 
 This will move all turtles starting with 'a' 10 times.
 
-* Multiple Turtle Calls
+* **Multiple Turtle Calls**
 
 This feature enables parsing one command for as many turtle as you want.
 Ex:
@@ -63,7 +63,7 @@ This will move both frank and freya 4 steps ahead.
 
 **Note**: The extensions like Globbing and Multiple Turtle Calls can be used together for better usage of the interpreter.
 
-* Save Your Art
+* **Save Your Art**
 
 This features enables saving your masterpiece to the specified file.
 Ex:
