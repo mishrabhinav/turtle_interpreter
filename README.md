@@ -1,7 +1,13 @@
-Turtle Interpreter
-==================
+Turtle Interpreter (written in JAVA)
+===================================
 
-Copyright by Abhinav Mishra. This code is for
+This is a first year lab exercise at Imperial College London. It is basically
+a simple implementation of [Logo(programming language)](https://en.wikipedia.org/wiki/Logo_%28programming_language%29)
+in JAVA. Since I enjoyed working on this lab assignment, I decided to put
+it on github. 
+
+
+Copyright by **Abhinav Mishra**. This code is for
 reference only, note that direct copy of large chunks of code conflicts
 with Imperial College's rules and may be regarded as plagiarism. All
 source code used in the project are for curriculum use only. All source
