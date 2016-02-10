@@ -1,11 +1,11 @@
 Turtle Interpreter
 ==================
 
-Overview of my extensions:
-* Repeat Command
-* Globbing Turtle Names
-* Multiple Turtle Calls with ','
-* Command Line Support
+Copyright by Abhinav Mishra. This code is for
+reference only, note that direct copy of large chunks of code conflicts
+with Imperial College's rules and may be regarded as plagiarism. All
+source code used in the project are for curriculum use only. All source
+code and documentation are NOT free to copy without a written permission.
 
 Repeat Command
 --------------
@@ -16,16 +16,16 @@ Ex:
   move frank 4
   right frank 90
   end
-```  
-  
+```
+
 This will repeat the set of command
 ```
   move frank 4
   right frank 90
 ```
   four times.
-  
-  
+
+
 Globbing
 --------
 This feature enables pattern matching in turtle names.
@@ -50,7 +50,7 @@ Note: The extensions like Globbing and Multiple Turtle Calls can be used togethe
 
 Command Line Support
 --------------------
-This extension kicks in when the user is using the command line to run the interpreter. 
+This extension kicks in when the user is using the command line to run the interpreter.
 While using the command line the interpreter throws errors, in case of any, and uses a beautiful
 indentation to align the input commands.
 
