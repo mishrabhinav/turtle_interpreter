@@ -10,8 +10,8 @@ it on github.
 Copyright by **Abhinav Mishra**. This code is for
 reference only, note that direct copy of large chunks of code conflicts
 with Imperial College's rules and may be regarded as plagiarism. All
-source code used in the project are for curriculum use only. All source
-code and documentation are NOT free to copy without a written permission.
+source code used in the project are for curriculum use only.
+Covered under the MIT License.
 
 Repeat Command
 --------------
